@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => '4cb648cccfe445354b712b8f04683ed88a909d80',
+    'reference' => 'df2c9841ccdce239a3e26844a5c583766a8f9610',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -153,12 +153,13 @@
     ),
     'fzaninotto/faker' => 
     array (
-      'pretty_version' => 'v1.9.2',
-      'version' => '1.9.2.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
+        0 => '1.9.x-dev',
       ),
-      'reference' => '848d8125239d7dbf8ab25cb7f054f1a630e68c2e',
+      'reference' => '5ffe7db6c80f441f150fc88008d64e64af66634b',
     ),
     'guzzlehttp/guzzle' => 
     array (
@@ -417,12 +418,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => '4cb648cccfe445354b712b8f04683ed88a909d80',
+      'reference' => 'df2c9841ccdce239a3e26844a5c583766a8f9610',
     ),
     'laravel/tinker' => 
     array (
