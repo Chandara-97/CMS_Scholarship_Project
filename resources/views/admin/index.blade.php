@@ -85,13 +85,34 @@
                             <a href="/admin/dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Article <i class="fa fa-fw fa-caret-down"></i></a>
+                            <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i>Post <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="demo" class="collapse">
                                 <li>
                                     <a href="/admin/article">View all articles</a>
                                 </li>
                                 <li>
                                     <a href="/create">Add article</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Home_</a>
+                                </li>
+                                <li>
+                                    <a href="/create">Add article</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">View all articles</a>
+                                </li>
+                                <li>
+                                    <a href="/create">Add article</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">View all articles</a>
+                                </li>
+                                <li>
+                                    <a href="/create">Add article</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">View all articles</a>
                                 </li>
                             </ul>
                         </li>
