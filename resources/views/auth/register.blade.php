@@ -1,6 +1,8 @@
 @extends('layouts.app')
-
+@include('layout.style_css')
 @section('content')
+@include('layout.navbar')
+@include('layout.background_carousel')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -73,5 +75,6 @@
             </div>
         </div>
     </div>
+    @include('layout.footer')
 </div>
 @endsection
