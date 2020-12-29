@@ -70,6 +70,7 @@ Route::post("/search","ArticleController@search");
 
 Route::get("/index","ArticleController@show");
 Route::get("/post/{id}","ArticleController@post");
+
 Route::prefix("/contact")->group(function (){
     Route::post("/","ContactController@store");
     Route::get("/","ContactController@show");
@@ -83,8 +84,23 @@ Route::get("/profile","ProfileController@show");
 Route::post("/article/{id}/like","ArticleLikeController@store")->middleware("auth");
 Route::post("/article/{id}/dislike","ArticleLikeController@destroy")->middleware("auth");
 
-
 Auth::routes();
 
 //Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/scholarship',function(){
+    return view('scholarship');
+});
+Route::get('/source',function(){
+    return view('source');
+});
+
+Route::get('/aboutus',function(){
+    return view('UserInterface.aboutus');
+});
+
+Route::get('/contactus',function(){
+
+    return view('UserInterface.contactus');
+});

@@ -21,9 +21,9 @@
                     <td>{{$article->title}}</td>
                     <td>{{$article->author}}</td>
                     <td>{{$article->category}}</td>
-                    <td>{{Str::limit($article->content)}}</td>
+                    <td style="width: 90px;">{{Str::limit($article->content,$limit = 20)}}</td>
                     <td>
-                        <img src="{{url('/storage/image/'.$article->image)}}" alt="Image" class="img-responsive" width="200px">
+                         <img src="{{ asset($article->image) }}" alt="Image" class="img-responsive" width="200px">
                     </td>
                     <td>{{$article->status}}</td>
                     <td>{{$article->view}}</td>

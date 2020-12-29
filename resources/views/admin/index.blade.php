@@ -11,7 +11,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>SB Admin - Bootstrap Admin Template</title>
+        <title>Admin Dashboard</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -30,7 +30,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
         <![endif]-->
-
+        
     </head>
 
     <body>
@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/index">SB Admin</a>
+                    <a class="navbar-brand" href="/index">Scholarship Cambodia</a>
                 </div>
                 <!-- Top Menu Items -->
                 <ul class="nav navbar-right top-nav">
@@ -73,7 +73,7 @@
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
-                                {{--                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>--}}
+                                {{--<a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>--}}
                             </li>
                         </ul>
                     </li>
@@ -107,6 +107,43 @@
                                 </li>
                                 <li>
                                     <a href="/create">Add article</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Add Home scholarship</a>
+                                </li>
+                                <li>
+                                    <a href="/create">Add Home source</a>
+                                </li>
+
+                                <li>
+                                    <a href="/admin/article">View Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="/admin/article">Add scholarship highschool</a>
+                                </li>
+                                <li>
+                                    <a href="/create">Add scholarship Bachelor</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Add scholarship PhD</a>
+                                </li>
+
+                                <li>
+                                    <a href="/admin/article">View Scholarship</a>
+                                </li>
+
+                                <li>
+                                    <a href="/create">Add Source_Book</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Add Source Video</a>
+                                </li>
+                                <li>
+                                    <a href="/create">Add Source Website</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">View Source</a>
                                 </li>
                             </ul>
                         </li>

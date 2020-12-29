@@ -198,7 +198,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     font-size: 18px;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #ffffff;
+    color: #9b9a9a;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
     color: #6a7695;

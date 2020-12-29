@@ -6,6 +6,7 @@
         <h1 class="text-center text-lg-center">Profile</h1>
         <div >
             <div >
+            
                 <img src="{{url('/storage/image/'.$user->image)}}" alt="Image" class="img-circle img-responsive ">
             </div>
             <div >
