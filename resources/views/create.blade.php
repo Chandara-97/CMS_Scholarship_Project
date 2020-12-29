@@ -14,9 +14,15 @@
            <div class="form-group">
                <label for="category">Category</label>
                <select name="category" id="category" class="form-control">
-                   <option value="js">JavaScript</option>
-                   <option value="bootstrap">Bootstrap</option>
-                   <option value="php">PHP</option>
+                   <option value="scholarship">Scholarship</option>
+                   <option value="source">Source</option>
+                   <option value="scholarship">High School Scholarship</option>
+                   <option value="scholarship">Bachelor Scholarship</option>
+                   <option value="scholarship">Master Scholarship</option>
+                   <option value="scholarship">PhD Scholarship</option>
+                   <option value="source">Books</option>
+                   <option value="source">Videos</option>
+                   <option value="source">Websites</option>
                </select>
            </div>
             <div class="form-group">

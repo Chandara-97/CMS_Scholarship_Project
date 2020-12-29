@@ -88,31 +88,25 @@
                             <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i>Post <i class="fa fa-fw fa-caret-down"></i></a>
                             <ul id="demo" class="collapse">
                                 <li>
-                                    <a href="/admin/article">View all articles</a>
+                                    <a href="/admin/article">Home_Scholarship</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Home_Scourcce</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Highschool_Scholarship</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Bachelor_scholarship</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">Master_scholarship</a>
+                                </li>
+                                <li>
+                                    <a href="/admin/article">PhD_scholarship</a>
                                 </li>
                                 <li>
                                     <a href="/create">Add article</a>
-                                </li>
-                                <li>
-                                    <a href="/admin/article">Home_</a>
-                                </li>
-                                <li>
-                                    <a href="/create">Add article</a>
-                                </li>
-                                <li>
-                                    <a href="/admin/article">View all articles</a>
-                                </li>
-                                <li>
-                                    <a href="/create">Add article</a>
-                                </li>
-                                <li>
-                                    <a href="/admin/article">View all articles</a>
-                                </li>
-                                <li>
-                                    <a href="/create">Add article</a>
-                                </li>
-                                <li>
-                                    <a href="/admin/article">View all articles</a>
                                 </li>
                             </ul>
                         </li>
