@@ -6,7 +6,8 @@
         <h1 class="text-center text-lg-center">Profile</h1>
         <div class="row">
             <div class="col-lg-5 col-md-12">
-                <img src="{{url('/storage/image/'.$user->image)}}" alt="Image" class="img-circle img-responsive ">
+            <img src="{{ asset($user->image) }}" alt="Image" class="img-responsive" width="200px">
+                <!-- <img src="{{url('/storage/image/'.$user->image)}}" alt="Image" class="img-circle img-responsive "> -->
             </div>
             <div class="col-lg-7 col-md-12">
                 <div>

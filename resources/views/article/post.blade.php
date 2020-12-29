@@ -8,7 +8,8 @@
         </h1>
         <p><span class="glyphicon glyphicon-time"></span> Posted on {{$article->created_at}}</p>
         <hr>
-        <img class="img-responsive" src="{{url('/storage/image/'.$article->image)}}" alt="">
+        <img src="{{ asset($article->image) }}" alt="Image" class="img-responsive" width="200px">
+        <!-- <img class="img-responsive" src="{{url('/storage/image/'.$article->image)}}" alt=""> -->
         <hr>
         <div>
             <?php
@@ -25,7 +26,7 @@
         <hr>
 
 
-{{--        make admin--}}
+        {{--make admin--}}
         <div class="well">
             <h4>Leave a comment</h4>
             <form action="/comment/{{$article->id}}" method="POST" role="form">
@@ -43,8 +44,8 @@
         @forelse($data as $row)
             <div class="media">
                 <a class="pull-left" href="#">
-
-                    <img class="media-object" src="{{url('/storage/image/'.$row->user->image)}}" alt="profile" width="80px">
+                <img src="{{ asset($article->image) }}" alt="Image" class="img-responsive" width="200px">
+                    <!-- <img class="media-object" src="{{url('/storage/image/'.$row->user->image)}}" alt="profile" width="80px"> -->
                 </a>
 
                 <div class="media-body">

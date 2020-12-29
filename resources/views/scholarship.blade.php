@@ -67,11 +67,11 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="/cat/{{"js"}}">Schoarship</a>
+                                <li><a href="/cat/{{"js"}}">JavaScript</a>
                                 </li>
-                                <li><a href="/cat/{{"bootstrap"}}">Source</a>
+                                <li><a href="/cat/{{"bootstrap"}}">Bootstrap</a>
                                 </li>
-                                <li><a href="/cat/{{"php"}}">Home</a>
+                                <li><a href="/cat/{{"php"}}">PHP</a>
                                 </li>
                             </ul>
                         </div>
